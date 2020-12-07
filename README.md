@@ -1,2 +1,17 @@
 # Java-Programming-Masterclass-for-Software-Developers-Udemy.com-Course-
 Learning and practicing Java In This Course to improve my skills as a Computer Programmer. I want to obtain valuable Core Java Skills And Java Certification
+
+
+# Section 4 - Java Tutorial: Expressions, Statements, Code blocks, Methods and more
+
+# Section 5 - Control Flow Statements
+
+# Section 6 - OOP Part 1 - Classes, Constructors and Inheritance
+
+
+
+
+
+
+
+
