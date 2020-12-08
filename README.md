@@ -8,6 +8,9 @@ Learning and practicing Java In This Course to improve my skills as a Computer P
 
 # Section 6 - OOP Part 1 - Classes, Constructors and Inheritance
 
+# Section 7 - OOP Part 2 - Composition, Encapsulation, and Polymorphism
+
+
 
 
 
