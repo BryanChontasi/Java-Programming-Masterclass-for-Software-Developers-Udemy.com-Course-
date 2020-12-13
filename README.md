@@ -10,6 +10,9 @@ Learning and practicing Java In This Course to improve my skills as a Computer P
 
 # Section 7 - OOP Part 2 - Composition, Encapsulation, and Polymorphism
 
+# Section 8: Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+
+
 
 
 
