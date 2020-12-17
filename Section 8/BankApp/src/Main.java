@@ -6,45 +6,61 @@ public class Main {
         *  Bryan Chontasi 17/12/2020
         * */
 
-        //test all the classes and methods:
+        //test all the classes and methods required by description:
+        System.out.println("----Test of the app description----");
+        Bank bank = new Bank("National Australia Bank");
+        bank.addBranch("Adelaide");
+
+        bank.addCustomer("Adelaide", "Tim", 50.05);
+        bank.addCustomer("Adelaide", "Mike", 175.34);
+        bank.addCustomer("Adelaide", "Percy", 220.12);
+
+        bank.addCustomerTransaction("Adelaide", "Tim", 44.22);
+        bank.addCustomerTransaction("Adelaide", "Tim", 12.44);
+        bank.addCustomerTransaction("Adelaide", "Mike", 1.65);
+
+        bank.listCustomers("Adelaide", true);
+        //My own test
+        System.out.println("---------------------------------------");
+        System.out.println("----Test made by me----");
 
         //create Bank
-        Bank bank = new Bank("UK Bank");
+        Bank bank2 = new Bank("UK Bank");
 
         //create first branch
-        bank.addBranch("Barclays");
-        bank.addCustomer("Barclays", "Bryan", 100);
-        bank.addCustomer("Barclays", "Oscar", 75.34);
-        bank.addCustomer("Barclays", "Gloria", 240.98);
+        bank2.addBranch("Barclays");
+        bank2.addCustomer("Barclays", "Bryan", 100);
+        bank2.addCustomer("Barclays", "Oscar", 75.34);
+        bank2.addCustomer("Barclays", "Gloria", 240.98);
         //create second branch
-        bank.addBranch("HSBC");
-        bank.addCustomer("HSBC", "Erika", 34.59);
-        bank.addCustomer("HSBC", "Diana", 43.53);
-        bank.addCustomer("HSBC", "Geoco", 54.59);
+        bank2.addBranch("HSBC");
+        bank2.addCustomer("HSBC", "Erika", 34.59);
+        bank2.addCustomer("HSBC", "Diana", 43.53);
+        bank2.addCustomer("HSBC", "Geoco", 54.59);
 
         //add some transactions
-        bank.addCustomerTransaction("Barclays", "Bryan", 34.05);
-        bank.addCustomerTransaction("Barclays", "Bryan", 134.05);
-        bank.addCustomerTransaction("HSBC", "Diana", 100);
+        bank2.addCustomerTransaction("Barclays", "Bryan", 34.05);
+        bank2.addCustomerTransaction("Barclays", "Bryan", 134.05);
+        bank2.addCustomerTransaction("HSBC", "Diana", 100);
 
-        bank.listCustomers("Barclays",true);
+        bank2.listCustomers("Barclays",true);
         System.out.println("-------------------------");
-        bank.listCustomers("HSBC",true);
+        bank2.listCustomers("HSBC",true);
 
         System.out.println("-------------------------");
         System.out.println("---------TESTS-----------");
 
         //Tests
-        if(!bank.addCustomer("Santander", "Diana", 80)){
+        if(!bank2.addCustomer("Santander", "Diana", 80)){
             System.out.println("Error Santander branch does not exist");
         }
-        if(!bank.addBranch("HSBC")){
+        if(!bank2.addBranch("HSBC")){
             System.out.println("HSBC already exists");
         }
-        if(!bank.addCustomerTransaction("Barclays", "German", 80)){
+        if(!bank2.addCustomerTransaction("Barclays", "German", 80)){
             System.out.println("Customer German does not exist at branch");
         }
-        if(!bank.addCustomer("Barclays", "Bryan", 80)){
+        if(!bank2.addCustomer("Barclays", "Bryan", 80)){
             System.out.println("Customer Bryan already exists");
         }
     }
