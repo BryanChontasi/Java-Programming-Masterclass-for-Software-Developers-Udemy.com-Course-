@@ -12,6 +12,10 @@ Learning and practicing Java In This Course to improve my skills as a Computer P
 
 # Section 8: Arrays, Java inbuilt Lists, Autoboxing and Unboxing
 
+# Section 9: Inner and Abstract Classes & Interfaces
+
+# Section 10: Java Generics
+
 
 
 
