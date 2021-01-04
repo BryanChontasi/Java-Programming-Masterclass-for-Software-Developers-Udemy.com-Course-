@@ -16,6 +16,7 @@ Learning and practicing Java In This Course to improve my skills as a Computer P
 
 # Section 10: Java Generics
 
+# Section 11: Naming Conventions and Packages. static and final keywords
 
 
 
